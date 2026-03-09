@@ -14,17 +14,16 @@
         android:text="@string/banned_from_store"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+        app:layout_constraintVertical_bias="0.448" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/edtAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/please_enter_your_name"
+        android:hint="@string/enter_your_age"
         android:importantForAutofill="no"
         android:inputType="number"
         android:minHeight="48dp"
@@ -34,7 +33,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142" />
+        app:layout_constraintVertical_bias="0.142"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/tvResult"
@@ -45,10 +45,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
+        app:layout_constraintVertical_bias="0.698"
+        tools:ignore="TextSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/edtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
